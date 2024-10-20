@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:url(https://images.unsplash.com/photo-1526239187794-f8c27c7872ee?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.364);
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app-main {
+    background: rgba(255, 255, 255, 0.01);
+
+border: 5px solid rgba( 255, 255, 255, 0.18 );
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    text-align: center;
+    width: 350px;
+    color: white;
+}
+
+.input-box {
+    width: 98%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.weather-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.3);
+}
+
+.city, .date, .weather, .temp, .min-max, .description {
+    margin: 10px 0;
+}
+
+.weather-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.temp {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.min-max {
+    font-size: 14px;
+    color: #ccc;
+}
